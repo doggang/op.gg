@@ -5,103 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        *{
-            padding: 0;
-            margin: 0;
-        }
-        body{
-            background-color:rgb(70, 128, 240);
-        }
-        a{
-            text-decoration: none;
-            color : rgb(200, 200, 200);
-            
-        }
-        
-        #nav{
-            position: relative;
-            display: flex;
-            width: 100%;
-            height: 50px;
-            background-color:rgb(70, 128, 240);
-        }
-        #nav ul{
-            text-decoration: none;
-            list-style-type: none;
-            display: flex;
-        }
-        #nav ul li{
-            margin: 15px 10px;
-        }
-        #nav ul li:first-child{
-            color: white;
-            font-weight: bold;
-            font-size: 24px;
-            margin-top: 10px;
-        }
-        .nav:hover{
-            color: white;
-            border-bottom: 2px solid white;
-        }
-        #opgglogo{
-            color: white;
-        }
-        #nav form{
-            display: flex;
-            position: absolute;
-            right: 60px;
-        }
-        #sub{
-            color: rgb(80, 128, 300);
-            font-weight: bold;
-
-        }
-        #nav2{
-            height: 35px;
-            background-color:rgb(20, 62, 100);
-        }
-        #nav2_p{
-            font-size: 11.6px;
-            color: white;
-            line-height: 35px;
-            padding-left: 230px;
-        }
-        #nav2_p:hover{
-            text-decoration: underline;
-        }
-        #elis{
-            position: relative;
-            left: 50%;
-        }
-        
-    </style>
+    <link rel="stylesheet" href="opgg.css">
 </head>
 <body>
     <nav id="nav">
         <ul>
             <li><a href="https://www.op.gg/" id="opgglogo">OP.GG</a></li>
-            <li><a href="https://www.op.gg/" class="nav">#집에있자</a></li>
-            <li><a href="https://www.op.gg/champion/statistics" class="nav">챔피언 분석</a></li>
-            <li><a href="https://www.op.gg/aram/statistics" class="nav">칼바람</a></li>
-            <li><a href="https://www.op.gg/urf/statistics" class="nav">우르프</a></li>
-            <li><a href="https://www.op.gg/statistics/champion/" class="nav">통계</a></li>
-            <li><a href="https://www.op.gg/ranking/ladder/" class="nav">랭킹</a></li>
-            <li><a href="https://www.op.gg/spectate/pro/" class="nav">프로관전</a></li>
-            <li><a href="https://www.op.gg/multi/query=" class="nav">멀티서치</a></li>
-            <li><a href="https://news.op.gg/" class="nav">OP셜</a></li>
-            <li><a href="https://talk.op.gg/s/lol/all?sort=popular" class="nav">커뮤니티</a></li>
+            <li>리그오브레전드</li>
+            <li><a class="nav_li" href="https://er.op.gg/">이터널 리턴</a></li>
+            <li><a class="nav_li" href="https://pubg.op.gg/">배틀그라운드</a></li>
+            <li><a class="nav_li" href="https://overwatch.op.gg/">오버워치</a></li>
+            <li><a class="nav_li" href="https://talk.op.gg/">톡피지지</a></li>
+            <li><a class="nav_li" href="https://op.gg/desktop/">데스크톱</a></li>
+            <li><a class="nav_li" href="https://aggro.op.gg/">aggro</a></li>
         </ul>
     </nav>
     <nav id="nav2">
+        <ul>
+            <li><a href="https://www.op.gg/" id="nav2_li_a1" class="nav2">#집에있자</a></li>
+            <li><a href="https://www.op.gg/champion/statistics" class="nav2">챔피언 분석</a></li>
+            <li><a href="https://www.op.gg/aram/statistics" class="nav2">칼바람</a></li>
+            <li><a href="https://www.op.gg/urf/statistics" class="nav2">우르프</a></li>
+            <li><a href="https://www.op.gg/statistics/champion/" class="nav2">통계</a></li>
+            <li><a href="https://www.op.gg/ranking/ladder/" class="nav2">랭킹</a></li>
+            <li><a href="https://www.op.gg/spectate/pro/" class="nav2">프로관전</a></li>
+            <li><a href="https://www.op.gg/multi/query=" class="nav2">멀티서치</a></li>
+            <li><a href="https://news.op.gg/" class="nav2">OP셜</a></li>
+            <li><a href="https://talk.op.gg/s/lol/all?sort=popular" class="nav2">커뮤니티</a></li>
+        </ul>
+    </nav>
+    <nav id="nav3">
         <a href="https://www.op.gg/desktop/home.html?utm_source=opgg&utm_medium=txt&utm_campaign=new_kr" target="alt">
-        <p id="nav2_p">아직도 직접 룬세팅 하세요? 알맞는 룬세팅 자동으로 경험해보세요!</p></a>
+        <p id="nav3_p">아직도 직접 룬세팅 하세요? 알맞는 룬세팅 자동으로 경험해보세요!</p></a>
     </nav>
     <img id="elis" src="/image/elis.png" alt="새끼친 엘리스">
-
-    <form action="/examples/media/action_target.php" method="get">
-        <input type="text" name="char_name" placeholder="소환사명, 소환사명, ..."><br>
-        <input id="sub" type="submit" name="sub" value=".GG">
+    <form id="search" action="/examples/media/action_target.php" method="get">
+        <input id="search_1" class="search_in" type="text" name="char_name" placeholder="    소환사명, 소환사명, ..."><br>
+        <input id="sub" class="search_in" type="submit" name="sub" value=".GG">
         </form>
 </body>
 </html>

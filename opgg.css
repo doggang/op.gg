@@ -1,0 +1,137 @@
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color:#4285f4
+        }
+        a{
+            text-decoration: none;
+            color : rgb(200, 200, 200);
+            
+        }
+        #nav{
+            display: flex;
+            height: 40px;
+            background-color:rgb(22, 49, 77);
+        }
+        #nav ul{
+            list-style-type: none;
+            display: flex;
+            align-items: stretch;
+        }
+        #nav ul li{
+            font-size: 12px;
+            color: white;
+            line-height: 40px;
+            text-align: center;
+        }
+        #nav ul li:first-child{
+            padding: 0 28px;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+            background-color:#4285f4
+        }
+        #nav ul li:nth-child(2){
+            background-color:#4285f4;
+            padding: 0 28px;
+        }
+        #nav ul li:nth-child(3){
+            margin-left: 8px;
+        }
+        .nav_li{
+            padding: 6px 25px;
+        }
+        .nav_li:hover{
+            border-radius: 5px;
+            background-color:rgb(31, 73, 107);
+        }
+        #lollogo{
+            width: 30px;
+        }
+        #nav2{
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: 50px;
+            left: 300px;
+            background-color:#4285f4
+        }
+        #nav2 ul{
+            text-decoration: none;
+            list-style-type: none;
+            display: flex;
+        }
+        #nav2 ul li{
+            margin: 15px 10px;
+        }
+        #nav2_li_a1{
+            color: white;
+            border-bottom: 2px solid white;
+        }
+        .nav2:hover{
+            color: white;
+            border-bottom: 2px solid white;
+        }
+        #opgglogo{
+            color: white;
+        }
+        #nav2 form{
+            display: flex;
+            position: absolute;
+            right: 60px;
+        }
+        #sub{
+            color: rgb(80, 128, 300);
+            font-weight: bold;
+
+        }
+        #nav3{
+            height: 39px;
+            background-color:rgb(14, 67, 117);
+        }
+        #nav3_p{
+            font-size: 11.6px;
+            color: white;
+            line-height: 39px;
+            padding-left: 400px;
+        }
+        #nav3_p:hover{
+            text-decoration: underline;
+        }
+        #elis{
+            position: relative;
+            width: 430px;
+            left: 50%;
+            margin-left: -215px; 
+            top: 30px;
+        }
+        #search{
+            background-color: white;
+            display: flex;
+            position: absolute;
+            top: 380px;
+            left: 50%;
+            margin-left: -300px;
+        }
+        .search_in{
+            border: none;
+            background-color: white;
+        }
+        #search_1{
+            width: 530px;
+            height: 50px;
+            font-size: 14px;
+        }
+        #sub{
+            background-color:#53b2d8;
+            margin-top: 10px; margin-right: 10px;
+            border-radius: 2px;
+            width: 50px;
+            height: 30px;
+            font-size: 18px;
+            font-weight:bold;
+            color: white;
+        }
