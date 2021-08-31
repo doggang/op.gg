@@ -121,17 +121,85 @@
             background-color: white;
         }
         #search_1{
-            width: 530px;
+            width: 500px;
             height: 50px;
             font-size: 14px;
+            padding-left: 15px;
+            background-color: white;
+            outline: none;
         }
         #sub{
             background-color:#53b2d8;
-            margin-top: 10px; margin-right: 10px;
+            margin-top: 10px; margin-right: 10px; margin-left: 10px;
             border-radius: 2px;
             width: 50px;
             height: 30px;
             font-size: 18px;
             font-weight:bold;
             color: white;
+        }
+        #sub:hover{
+            cursor: pointer;
+        }
+        section{
+            width: 1070px;
+            height: 407px;
+            position: relative;
+            left: 50%;
+            margin-left: -535px;
+            top: 200px;
+            background-color: white;
+        }
+        #sech1{
+            padding: 16px 0 16px 20px;
+            font-weight: 900;
+            font-size: 14px;
+            border: 1px solid lightgrey;
+        }
+        #artol1{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 1070px;
+            height: 354px;
+            list-style-type: none;
+        }
+        #artol1 li{
+            display: flex;
+            flex-direction: row;
+            width: 535px;
+            height: 70px;
+            border-right: 1px solid lightgrey;
+            border-bottom: 1px solid lightgrey;
+            border-collapse:none;
+            border-spacing: 0px 0px;
+        }
+        .artol1_num{
+            width: 56px;
+            background-color: white;
+            text-align: center;
+            line-height: 67px;
+            font-size: 18px;
+            font-style: italic;
+            font-weight: 550;
+            color: rgb(150, 150, 150);
+        }
+        .artol1_num:first-child{
+            color: rgb(7, 121, 73);   
+        }
+        .artol_num2{
+            color: rgb(80, 115, 190);
+        }
+
+        #artol1 li:nth-child(5){
+            border-bottom: none;
+        }
+        #artol1 li:nth-child(10){
+            border-bottom: none;
+        }
+        #artol1 li:nth-child(2n+4){
+            border-right: none;
+        }
+        #artol1 li:nth-child(2n+3){
+            border-right: none;
         }
