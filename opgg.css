@@ -4,7 +4,8 @@
             margin: 0;
         }
         body{
-            background-color:#4285f4
+            background-color:#4285f4;
+            min-width:908px;
         }
         a{
             text-decoration: none;
