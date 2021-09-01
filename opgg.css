@@ -5,7 +5,7 @@
         }
         body{
             background-color:#4285f4;
-            max-width:908px;
+            min-width:908px;
         }
         a{
             text-decoration: none;
